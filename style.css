@@ -1,0 +1,56 @@
+:root {
+    --col-pant2: rgb(232, 87, 80, 91);
+    --col-text1: rgb(255, 255, 255, 100);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.caja_tit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tit {
+    background-color: var(--col-pant2);
+    color: var(--col-text1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 2px;
+    box-shadow: 0 0 0.2rem black;
+    padding: 5px 15px 5px 15px;
+}
+
+.caj_img {
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+
+
+.imagen {
+    max-width: 100%;
+    width: 60px;
+    filter: drop-shadow(0 2px 0.20rem black);
+}
+
+.imagen:hover {
+    filter: drop-shadow(0 2px 0.30rem black);
+}

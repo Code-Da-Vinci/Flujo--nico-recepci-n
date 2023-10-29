@@ -1,0 +1,51 @@
+:root {
+   --col-pant1: rgb();
+   --col-pant2: rgb(234,234,234, 92);
+   --col-text1: rgb(32, 33, 36, 14);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+}
+
+.medio {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   text-align: center;
+   justify-content: center;
+}
+
+.caja_tit {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin: 5px 0 0 0;
+}
+
+.tit {
+   background-color: var(--col-pant2);
+   color: var(--col-text1);
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 1.1rem;
+   padding: 3px 10px 3px 10px;
+}
+
+.caj_img {
+   width: 100%;
+   padding: 50px 0 0 0;
+}
+
+.imagen {
+   max-width: 100%;
+   width: 50px;
+   filter: drop-shadow(0 0 0.20rem var(--col-text1));
+}
