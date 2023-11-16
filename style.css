@@ -15,6 +15,7 @@ body {
 }
 
 .medio {
+    background-color: lightsalmon;
     display: flex;
     flex-direction: column;
     height: 100vh;
